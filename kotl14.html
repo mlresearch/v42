@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Consistent optimization of AMS by logistic loss minimization | HEPML 2014 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Consistent optimization of AMS by logistic loss minimization">
+
+  <meta name="citation_author" content="Kot&lt;span&gt;ł&lt;/span&gt;owski, Wojciech">
+
+<meta name="citation_publication_date" content="2014">
+<meta name="citation_conference_title" content="NIPS 2014 Workshop on High-energy Physics and Machine Learning">
+<meta name="citation_firstpage" content="99">
+<meta name="citation_lastpage" content="108">
+<meta name="citation_pdf_url" content="kotl14.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Consistent optimization of AMS by logistic loss minimization</h1>
+
+	<div id="authors">
+	
+		Wojciech Kot<span>ł</span>owski
+	<br />
+	</div>
+	<div id="info">
+		NIPS 2014 Workshop on High-energy Physics and Machine Learning,
+		pp. 99–108, 2014
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		In this paper, we theoretically justify an approach popular among participants of the Higgs Boson Machine Learning Challenge to optimize approximate median significance (AMS). The approach is based on the following two-stage procedure. First, a real-valued function <span class="math">\(f\)</span> is learned by minimizing a surrogate loss for binary classification, such as logistic loss, on the training sample. Then, given <span class="math">\(f\)</span>, a threshold <span class="math">\(\hat{\theta}\)</span> is tuned on a separate validation sample, by direct optimization of AMS. We show that the regret of the resulting classifier (obtained from thresholding <span class="math">\(f\)</span> on <span class="math">\(\hat{\theta}\)</span>) measured with respect to the squared AMS, is upperbounded by the regret of <span class="math">\(f\)</span> measured with respect to the logistic loss. Hence, we prove that minimizing logistic surrogate is a consistent method of optimizing AMS.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="kotl14.pdf">Download PDF</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>
