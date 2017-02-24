@@ -1,0 +1,53 @@
+---
+booktitle: Proceedings of the NIPS 2014 Workshop on High-energy Physics and Machine
+  Learning
+shortname: HEPML
+volume: 42
+year: '2014'
+start: 2014-12-13
+end: 2014-12-13
+sections:
+- name: preface
+  title: Preface
+- name: default
+  title: Accepted Papers
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: HEPML14
+month: 0
+abstract: ''
+editor:
+- given: Glen
+  family: Cowan
+- given: Cécile
+  family: Germain
+- given: Isabelle
+  family: Guyon
+- given: Balázs
+  family: Kégl
+- given: David
+  family: Rousseau
+title: Proceedings of the NIPS 2014 Workshop on High-energy Physics and Machine Learning
+email: ''
+description: Proceedings of the NIPS 2014 Workshop on High-energy Physics and Machine
+  Learning, Montreal, Canada
+url: http://proceedings.mlr.press
+baseurl: "/v42"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v42
+conference:
+  name: NIPS 2014 Workshop on High-energy Physics and Machine Learning
+  url: https://sites.google.com/site/hepml14/home
+  location: Montreal, Canada
+  dates:
+  - 2014-12-13
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v42.bib
