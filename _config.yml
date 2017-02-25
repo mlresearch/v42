@@ -57,6 +57,8 @@ github:
   edit: true
   repository: v42
 bibtex_copy: true
+endnote_copy: true
+apa_copy: true
 email: ''
 conference:
   name: NIPS 2014 Workshop on High-energy Physics and Machine Learning
