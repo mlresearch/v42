@@ -28,10 +28,23 @@ editor:
   family: Kégl
 - given: David
   family: Rousseau
-title: Proceedings of the NIPS 2014 Workshop on High-energy Physics and Machine Learning
-email: ''
-description: Proceedings of the NIPS 2014 Workshop on High-energy Physics and Machine
-  Learning, Montreal, Canada
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the NIPS 2014 Workshop on High-energy Physics and Machine Learning
+    Held in Montreal, Canada on 13 December 2014
+
+  Published as Volume 42 by the Proceedings of Machine Learning Research on 27 August 2015.
+
+  Volume Edited by:
+    Glen Cowan
+    Cécile Germain
+    Isabelle Guyon
+    Balázs Kégl
+    David Rousseau
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
 url: http://proceedings.mlr.press
 baseurl: "/v42"
 twitter_username: mlresearch
@@ -41,6 +54,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v42
+email: ''
 conference:
   name: NIPS 2014 Workshop on High-energy Physics and Machine Learning
   url: https://sites.google.com/site/hepml14/home
