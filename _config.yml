@@ -16,9 +16,6 @@ layout: proceedings
 series: Proceedings of Machine Learning Research
 id: HEPML14
 month: 0
-abstract: ''
-tex_title: 
-title: Proceedings of Machine Learning Research
 cycles: false
 editor:
 - given: Glen
@@ -31,6 +28,7 @@ editor:
   family: Kégl
 - given: David
   family: Rousseau
+title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the NIPS 2014 Workshop on High-energy Physics and Machine Learning
     Held in Montreal, Canada on 13 December 2014
@@ -50,7 +48,7 @@ description: |
 date_str: 13 Dec
 url: http://proceedings.mlr.press
 baseurl: "/v42"
-twitter_username: mlresearch
+twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
@@ -62,6 +60,7 @@ display:
     bibtex: true
     endnote: true
     apa: true
+    ris: true
   comments: false
 email: ''
 conference:
@@ -75,3 +74,4 @@ analytics:
     tracking_id: UA-92432422-1
 # Site settings
 # Auto generated from v42.bib
+---
